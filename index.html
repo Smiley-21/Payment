@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+    <style>
+      .container {
+        background-image: url("Yellow Image of flower.jpg");
+        background-repeat: no-repeat;
+        background-size: 1300px 900px;
+        background-attachment: fixed;
+      }
+    </style>
+    <link rel="stylesheet" href="style_payment.css" />
+  </head>
+  <div class="container">
+    <body>
+      <form action="">
+        <h1 class="main_heading">Payment Form</h1>
+        <p>Required fields are marked as *</p>
+        <h4>Contact Information</h4>
+        <p>
+          Name :*
+          <input type="text" name="name" required placeholder="Saurabh" />
+        </p>
+        <fieldset>
+          <legend>Gender</legend>
+          <p>
+            Male <input type="radio" name="gender" id=" male" required /> Female
+            <input type="radio" name="gender" id=",female" required />
+          </p>
+        </fieldset>
+        <p>
+          Address:<textarea
+            name=" address1"
+            id=" address"
+            cols=" 20"
+            rows="5"
+            placeholder="sohasa banspar"
+          ></textarea>
+        </p>
+        <p>
+          Email :
+          <input
+            type="email"
+            name="email"
+            id=" email"
+            required
+            placeholder="saurabh@gmail.com"
+          />
+        </p>
+        <p>Pincode : <input type="number" name="pincode" id="pincode" /></p>
+        <h3>Card Detail /Payement Detail</h3>
+        <p>
+          Card Type :
+          <select name="card_type" id="card_type">
+            <option value="">--Select a Card Type --</option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">mastercard</option>
+            <option value="Global ">Global Card</option>
+          </select>
+        </p>
+        <p>
+          Card Number
+          <input
+            type="number"
+            name=" card_number"
+            id=" card_number"
+            placeholder="1111-2222-3333-4444"
+          />
+        </p>
+        <p>
+          Expiry Date :
+          <input type="date" name="Expiry_date" id=" Expiry Date" />
+        </p>
+        <p>
+          CVV <input type="password" name="cvv" id=" cvv" placeholder="560" />
+        </p>
+
+        <input type="reset" value=" Reset" />
+        <br />
+        <br />
+        <input type="submit" value=" Pay Now" />
+      </form>
+    </body>
+  </div>
+</html>
