@@ -1,6 +1,6 @@
 # Payment Form for learnig HTML and CSS
 *The website I built is a simple yet functional project that showcases my newly acquired HTML and CSS skills.
-It includes several web pages with different sections, such as a homepage, about me section, portfolio, and contact information.*
+It includes  web pages in which learnt about form .*
 
 # Technologies Used
  * HTML (Hypertext Markup Language):
